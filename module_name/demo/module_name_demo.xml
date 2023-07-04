@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="module_name_01" model="module.name">
+            <field name="vin">KAIN220M000243</field>
+<!--             <field name="first_name">Keanu</field>
+            <field name="last_name">Reyes</field> -->
+            <field name="current_mileage">10000</field>
+        </record>
+        <record id="module_name_01" model="module.name">
+            <field name="vin">KARA230L563923</field>
+<!--             <field name="first_name">Evel</field>
+            <field name="last_name">Knievel</field> -->
+            <field name="current_mileage">3400</field>
+            <field name="license_plate">KLV453</field>
+        </record>
+        <record id="module_name_01" model="module.name">
+            <field name="vin">KAUK21XL847324</field>
+<!--             <field name="first_name">Ewan</field>
+            <field name="last_name">McGregor</field> -->
+            <field name="current_mileage">100</field>
+            <field name="license_plate">KLR3453L</field>
+        </record>
+    </data>
+</odoo>

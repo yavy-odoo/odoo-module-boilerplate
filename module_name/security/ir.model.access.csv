@@ -1,0 +1,3 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+feature_admin,module name admin,model_module_name,group_feature_admin,1,1,1,1
+feature_user,module name user,model_module_name,group_feature_user,1,0,1,0

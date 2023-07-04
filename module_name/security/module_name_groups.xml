@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="group_feature_user" model="res.groups">
+        <field name="name">Module Name/User</field>
+    </record>
+    <record id="group_feature_admin" model="res.groups">
+        <field name="name">Module Name/Admin</field>
+        <field name="implied_ids" eval="[Command.link(ref('group_registry_user'))]"/>
+    </record>
+</odoo>
